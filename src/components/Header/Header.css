@@ -1,0 +1,36 @@
+.header {
+    background: linear-gradient(90deg, #224f80 1.18%, #266ed3 100%);
+    color: white;
+    padding: 20px;
+}
+
+.header--container {
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+.header--image {
+    height: 45px;
+    margin-right: 6px;
+}
+
+.header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.header--project {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* media query for widths at 1024px or above */
+@media (min-width: 1024px) {
+    .header--title {
+        font-size: 1.5rem;
+    }
+    .header--project {
+        font-size: 1rem;
+    }
+}
